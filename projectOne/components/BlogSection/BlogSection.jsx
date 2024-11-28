@@ -16,6 +16,7 @@ import eleven from "../../assets/blogeleven.png";
 import link from "../../assets/link.png";
 import Link from "next/link";
 import Image from "next/image";
+import Replace from "../Replace/Replace";
 
 const BlogSection = () => {
   const Blogs = [
@@ -175,6 +176,7 @@ const BlogSection = () => {
           </div>
         ))}
       </div>
+      <Replace />
     </div>
   );
 };
