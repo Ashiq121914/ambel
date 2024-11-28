@@ -62,7 +62,7 @@ const FeaturesSection = () => {
     },
   ];
   return (
-    <div className="bg-green p-[30px] mt-[50px] h-full">
+    <div className="bg-green px-[30px] py-[50px] mt-[50px] h-full">
       <p className="text-orange text-base md:text-[16px] font-semibold text-center mt-[20px]">
         Features{" "}
       </p>

@@ -77,7 +77,7 @@ const ProfessionSliderCardCom = ({ professionObj }) => {
       cardImg: Cardseven,
     },
   ];
-  console.log(professionState);
+
   return (
     <div className="mt-[40px]  flex  md:flex-row xl:flex-row flex-wrap justify-center items-center gap-[20px] container mx-auto">
       {professionDiscriptions.map((profession) => (
