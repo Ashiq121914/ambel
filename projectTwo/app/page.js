@@ -1,7 +1,12 @@
+import Pricing from "@/components/Pricing/Pricing";
 import React from "react";
 
 const Home = () => {
-  return <div>Project 2</div>;
+  return (
+    <div>
+      <Pricing />
+    </div>
+  );
 };
 
 export default Home;
