@@ -1,5 +1,6 @@
 import React from "react";
 import PricingCards from "./PricingCards";
+import TrialSection from "./TrialSection";
 
 const Pricing = () => {
   return (
@@ -24,6 +25,7 @@ const Pricing = () => {
 
       <div className="mt-[40px]">
         <PricingCards />
+        <TrialSection />
       </div>
     </div>
   );
