@@ -1,4 +1,5 @@
 import BusinessConnection from "@/components/BusinessConnection/BusinessConnection";
+import FeaturesSection from "@/components/FeaturesSection/FeaturesSection";
 import HeroDescription from "@/components/HeroDescription/HeroDescription";
 import HeroImage from "@/components/HeroImage/HeroImage";
 import ProfessionSlider from "@/components/ProfessionSlider/ProfessionSlider";
@@ -11,6 +12,7 @@ const Home = () => {
       <HeroImage />
       <BusinessConnection />
       <ProfessionSlider />
+      <FeaturesSection />
     </div>
   );
 };
