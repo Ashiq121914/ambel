@@ -1,3 +1,4 @@
+import BlogSection from "@/components/BlogSection/BlogSection";
 import BookAndAppointment from "@/components/BookAndAppointment/BookAndAppointment";
 import BusinessConnection from "@/components/BusinessConnection/BusinessConnection";
 import FeaturesSection from "@/components/FeaturesSection/FeaturesSection";
@@ -15,6 +16,7 @@ const Home = () => {
       <ProfessionSlider />
       <FeaturesSection />
       <BookAndAppointment />
+      <BlogSection />
     </div>
   );
 };

@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import badge from "../../assets/Badge.png";
+import Link from "next/link";
 
 const BookAndAppointment = () => {
   const tags = [
@@ -116,6 +117,34 @@ const BookAndAppointment = () => {
           <Image width={30} height={39} alt="badge" src={badge} />
         </div>
       </div>
+      <Link
+        className="text-center flex justify-center items-center gap-[5px] mt-[30px]"
+        href="/"
+      >
+        <p className="text-[14px] text-[#0D99FF]">Explore advance search</p>
+        <svg
+          width="19"
+          height="12"
+          viewBox="0 0 19 12"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M17.5 6.00171H1.5"
+            stroke="#0D99FF"
+            strokeWidth="1.5"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+          <path
+            d="M12.5001 11.002C12.5001 11.002 17.5 7.31955 17.5 6.00195C17.5 4.68435 12.5 1.00195 12.5 1.00195"
+            stroke="#0D99FF"
+            strokeWidth="1.5"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      </Link>
     </div>
   );
 };
